@@ -51,8 +51,7 @@ class ViewController: UIViewController {
         scoreLabel.text = String(0)
         roundLabel.text = String(1)
     }
-
-
+    
     @IBAction func showAlert() {
         var points = 0
         let difference = abs(targetValue - currentValue)

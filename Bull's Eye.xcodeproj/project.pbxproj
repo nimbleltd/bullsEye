@@ -12,6 +12,7 @@
 		A9BC07D71D4FC1FB00DBDB7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BC07D51D4FC1FB00DBDB7D /* Main.storyboard */; };
 		A9BC07D91D4FC1FB00DBDB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BC07D81D4FC1FB00DBDB7D /* Assets.xcassets */; };
 		A9BC07DC1D4FC1FB00DBDB7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BC07DA1D4FC1FB00DBDB7D /* LaunchScreen.storyboard */; };
+		A9BC07E41D51411E00DBDB7D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC07E31D51411E00DBDB7D /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A9BC07D81D4FC1FB00DBDB7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9BC07DB1D4FC1FB00DBDB7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9BC07DD1D4FC1FB00DBDB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BC07E31D51411E00DBDB7D /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A9BC07D11D4FC1FB00DBDB7D /* AppDelegate.swift */,
 				A9BC07D31D4FC1FB00DBDB7D /* ViewController.swift */,
 				A9BC07D51D4FC1FB00DBDB7D /* Main.storyboard */,
+				A9BC07E31D51411E00DBDB7D /* AboutViewController.swift */,
 				A9BC07D81D4FC1FB00DBDB7D /* Assets.xcassets */,
 				A9BC07DA1D4FC1FB00DBDB7D /* LaunchScreen.storyboard */,
 				A9BC07DD1D4FC1FB00DBDB7D /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BC07E41D51411E00DBDB7D /* AboutViewController.swift in Sources */,
 				A9BC07D41D4FC1FB00DBDB7D /* ViewController.swift in Sources */,
 				A9BC07D21D4FC1FB00DBDB7D /* AppDelegate.swift in Sources */,
 			);
