@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +45,11 @@ class ViewController: UIViewController {
         //Sets slider value to the current value
         slider.value = Float(currentValue)
         round += 1
+    }
+    
+    @IBAction func startOver (){
+        scoreLabel.text = String(0)
+        roundLabel.text = String(1)
     }
 
 
