@@ -70,14 +70,15 @@ class ViewController: UIViewController {
                                       message: message, preferredStyle: .Alert)
         
         let action = UIAlertAction(title: "OK", style: .Default,
-                                   handler: nil)
+                                   handler: {action in self.startNewRound(); self.updateLabels()
+        })
         
         alert.addAction(action)
         
         presentViewController(alert, animated: true, completion: nil)
         
-        startNewRound()
-        updateLabels()
+//        startNewRound()
+//        updateLabels()
     }
     
     
