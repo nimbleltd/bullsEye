@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="xUc-RT-2Bx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="xUc-RT-2Bx">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p0r-EC-XHo">
@@ -115,7 +115,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="p0r-EC-XHo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BxQ-0h-vpu"/>
+                            <constraint firstItem="xUc-RT-2Bx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dck-RL-VQy"/>
                             <constraint firstItem="p0r-EC-XHo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TCF-vF-nId"/>
+                            <constraint firstItem="xUc-RT-2Bx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="snd-fQ-5wo"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
