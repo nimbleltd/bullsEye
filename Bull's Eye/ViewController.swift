@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
 
@@ -47,10 +48,24 @@ class ViewController: UIViewController {
         round += 1
     }
     
-    @IBAction func startOver (){
+//    @IBAction func startOver (){
+//        scoreLabel.text = String(0)
+//        roundLabel.text = String(1)
+//    }
+    
+    @IBAction func startOver() {
         scoreLabel.text = String(0)
         roundLabel.text = String(1)
+        slider.value = Float(50)
+        
+        let transition = CATransition()
+        transition.type = kCATransitionFade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        view.layer.addAnimation(transition, forKey: nil)
     }
+    
+    
     
     @IBAction func showAlert() {
         var points = 0
