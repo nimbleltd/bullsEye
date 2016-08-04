@@ -24,7 +24,7 @@
                                 <rect key="frame" x="12.5" y="32.5" width="543" height="255"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDM-SF-DgK">
-                                        <rect key="frame" x="211" y="129" width="104" height="47"/>
+                                        <rect key="frame" x="211" y="130" width="104" height="47"/>
                                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="PUNCH IT!">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
